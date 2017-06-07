@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<title>CodePace</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+h1 {font-family: "Raleway", sans-serif; text-align: center;}
+li {text-align: left;}
+.w3-bar,h1,button {font-family: "Raleway", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+.comp_font {
+  font-family: "Raleway", sans-serif;
+}
+.center-text {font-family: "Raleway", sans-serif; text-align: center;}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top" style="box-shadow:none">
+  <div class="w3-bar w3-card-2 w3-left-align w3-large" style="background-color:#34495e">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="./codepace.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white" style="color:#ecf0f1">Home</a>
+    <a href="./libraries.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Libraries</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Link 4</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="./libraries.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Libraries</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="color:#ecf0f1">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="color:#ecf0f1">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="color:#ecf0f1">Link 4</a>
+  </div>
+</div>
+
+
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:80px 16px; background-color:#34495e; height:200px"> <!-- 200 bc screw css -->
+  <h1 style="color:#ecf0f1">The Fun Stuff.</h1>
+</header>
+
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" style="background-color:#ecf0f1; margin:0 auto;">
+  <div class="w3-content center-text">
+    <div style="margin:0 auto;">
+      <h1 class="center-text">Libraries</h1>
+
+      <!-- Java libs -->
+      <h2 style="text-align:left">Java</h2>
+      <ul>
+        <li>AlertFX - A JavaFX API for easy interaction with alerts and dialogs (<a href="https://cbrnrd.github.io/AlertFX/">Documentation</a>, <a href="https://github.com/cbrnrd/AlertFX">Source</a>, <a href="https://github.com/cbrnrd/AlertFX/blob/master/README.md">Readme</a>)</li>
+      </ul>
+
+      <!-- Python libs -->
+      <h2 style="text-align:left"><br>Python</h2>
+      <ul>
+        <li>TODO</li>
+        <li>PDF Split, merge, watermark, and encryption</li> <!-- https://automatetheboringstuff.com/chapter13/ -->
+      </ul>
+
+      <!-- Ruby libs -->
+      <h2 style="text-align:left"><br>Ruby</h2>
+      <ul>
+        <li>TODO</li>
+      </ul>
+
+    </div>
+
+    <!--<div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64" style="color:#34495e"></i>
+    </div>-->
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" style="background-color:#bdc3c7">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src="https://maxcdn.icons8.com/Share/icon/Logos//open_source1600.png" height="300" width="300" style="align:left"/>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Open-source. Now and forever.</h1>
+      <h5 class="w3-padding-32">
+        Here at Codepace, we believe that information
+        and software should be free and open to the public. We uphold this
+        standard by keeping all of our libraries open source on <a href="https://github.com/codepace-hq">GitHub</a>
+      </h5>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" style="background-color:#ecf0f1">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Header 3</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64" style="color:#34495e"></i>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-center w3-padding-64" style="background-color:#34495e">
+    <h1 class="w3-margin w3-xlarge" style="color:#ecf0f1">Quote of the day: live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
