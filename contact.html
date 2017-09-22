@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<title>Services | Codepace</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+h1 {font-family: "Raleway", sans-serif; text-align: center;}
+li {text-align: left;}
+.w3-bar,h1,button {font-family: "Raleway", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+.comp_font {
+  font-family: "Raleway", sans-serif;
+}
+.center-text {font-family: "Raleway", sans-serif; text-align: center;}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top" style="box-shadow:none">
+  <div class="w3-bar w3-card-2 w3-left-align w3-large" style="background-color:#34495e">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hover-white" style="color:#ecf0f1">Home</a>
+    <a href="./libraries.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Libraries</a>
+    <a href="./services.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Services</a>
+    <a href="./contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Contact Us</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Link 4</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" style="box-shadow:none" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="./libraries.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style="color:#ecf0f1">Libraries</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="color:#ecf0f1">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="color:#ecf0f1">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large" style="color:#ecf0f1">Link 4</a>
+  </div>
+</div>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container" style="background-color:#ecf0f1; margin:0 auto;">
+  <div class="w3-content center-text">
+    <div style="margin:0 auto;">
+      <h1 class="center-text">Contact</h1>
+    </div>
+
+      <h1 class="center-text">You can contact us by email, phone, or IRC (TODO)</h1>
+      <h2 class="center-text">Email: 0xCB@protonmail.com</h2>
+      <h2 class="center-text">Phone: +1.202-262-0846</h2>
+      <h2 class="center-text">IRC: codepace.freenode.net (TODO)</h2>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
